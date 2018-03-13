@@ -62,7 +62,7 @@ header nav ul {
 }
 
 nav li {
-  padding-right: 3.5rem;
+  padding-right: 1.875rem;
 }
 
 nav a {
@@ -228,7 +228,7 @@ header .mobile {
   justify-content: space-between;
   padding: 4rem 5%;
   background-color: #f3f3f3;
-  width: 100%;
+  max-width: 100%;
 }
 
 .feature {
@@ -290,6 +290,7 @@ header .mobile {
 /* Filters Section */
 
 #filters-section {
+  margin-top: 2.875;
   padding: 4rem 0;
   background-color: #4a4a4a;
 }
@@ -303,6 +304,8 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  opacity: 100%;
+  margin-top: 4rem;
 }
 
 #filters-section .content h3 {
@@ -313,8 +316,10 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -351,13 +356,15 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  display: flex;
+  justify-content:  center;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
